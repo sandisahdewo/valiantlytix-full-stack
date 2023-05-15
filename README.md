@@ -1,27 +1,20 @@
 # valiantlytix
 
-## Project Setup
+# Pre-requisites
+- Install [Node.js](https://nodejs.org/en/) version 16.0 or higher
 
-```sh
+# Getting started
+- Clone the repository
+```
+git clone  <git lab template url> <project_name>
+```
+- Install dependencies
+```
+cd <project_name>
 npm install
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
+- Build and run the project
+```
 npm run dev
 ```
-
-### Compile and Minify for Production (production only)
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/) (optional)
-
-```sh
-npm run lint
-```
-
-### [Open in browser](http://127.0.0.1)
+Navigate to `http://127.0.0.1:5173`
