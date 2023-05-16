@@ -1,9 +1,9 @@
 <template>
-    <div class="md:px-[15rem] mt-4">
+    <div class="px-3 md:px-[15rem] mt-4">
 		<p v-if="isLoading" class="text-center">Loading...</p>
         <div v-if="!isLoading">
             <a href="#" class="flex flex-col rounded-lg shadow md:flex-row border-gray-700 bg-gray-800 hover:bg-gray-700 px-4 py-5">
-                <Splide :options="{ rewind: true }" class="w-96" aria-label="Detail products images">
+                <Splide :options="{ rewind: true }" class="w-[21rem] md:w-96" aria-label="Detail products images">
                     <SplideSlide v-for="(image, key) in product.images" :key="key">
                         <img :src="image" alt="Image" class="object-cover h-96 rounded-t-lg">
                     </SplideSlide>
